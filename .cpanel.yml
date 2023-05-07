@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - hugo --source=/home/vihaikbl/public_html/vihait.com/ --destination=/vihaikbl/public_html/
+  cleanup:
+    destination: /vihaikbl/public_html/
