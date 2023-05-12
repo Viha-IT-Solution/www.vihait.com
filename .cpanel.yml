@@ -1,9 +1,4 @@
 ---
 deployment:
-  tasks:
-    - export DEPLOYPATH=/home/vihaikbl/public_html/
-    - /bin/cp -R $BUILD_DIR/* $DEPLOYPATH
-  environment:
-    buildDir: /home/yourcpanelusername/hugobuild
   script:
-    - hugo --destination $buildDir
+    - hugo --destination=../
