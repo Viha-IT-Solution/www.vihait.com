@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - hugo ../vihait.com/ -d ../
-  cleanup:
-    destination: /vihaikbl/public_html/
+
