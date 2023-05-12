@@ -1,4 +1,4 @@
----
-deployment:
-  script:
-    - hugo --destination=../
+#---
+#deployment:
+#  script:
+#    - hugo --destination=../
