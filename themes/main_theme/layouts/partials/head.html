@@ -5,11 +5,11 @@
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-  {{ hugo.Generator }}
+<!--  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}-->
+<!--  {{ hugo.Generator }}-->
 
-  {{ "<!-- theme meta -->" | safeHTML }}
-  <meta name="theme-name" content="redlab-hugo" />
+<!--  {{ "&lt;!&ndash; theme meta &ndash;&gt;" | safeHTML }}-->
+<!--  <meta name="theme-name" content="redlab-hugo" />-->
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
