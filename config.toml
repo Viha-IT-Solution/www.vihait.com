@@ -10,7 +10,7 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "vihait" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+#disableLanguages = [] # desable language from here
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -196,7 +196,7 @@ link = "#"
 
 
 ################################### English language #####################################
-[Languages.en]
+#[Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
