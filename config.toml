@@ -66,16 +66,16 @@ weight = 3
 name = "Pages"
 hasChildren = true
 
-  [[menu.main]]
-  parent = "Pages"
-  name = "Career"
-  URL = "career"
+[[menu.main]]
+parent = "Pages"
+name = "Career"
+URL = "career"
 
-  [[menu.main]]
-  parent = "Pages"
-  name = "Blog"
-  URL = "blog"
-  
+[[menu.main]]
+parent = "Pages"
+name = "Blog"
+URL = "blog"
+
 [[menu.main]]
 name = "Contact"
 URL = "contact"
@@ -108,11 +108,11 @@ logo = "images/logo.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Viha IT"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@redlab.com"
+address = "4078, Silver Business Point, Near VIP Circle, Surat"
+mobile = "+91 "
+email = "ceo@vihait.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -193,13 +193,6 @@ icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
 
-################################### English language #####################################
-#[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content"
-weight = 1
-home = "Home"
-
-# footer content
+[params.footer]
+about_us = "About Viha IT Solition"
 footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat."
