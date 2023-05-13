@@ -9,8 +9,6 @@ paginate = "6"
 summaryLength = "10"
 # disqus short name
 disqusShortname = "vihait" # get your shortname form here : https://disqus.com
-# disable language
-#disableLanguages = [] # desable language from here
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -199,19 +197,9 @@ link = "#"
 #[Languages.en]
 languageName = "En"
 languageCode = "en-us"
-contentDir = "content/english"
+contentDir = "content"
 weight = 1
 home = "Home"
+
 # footer content
 footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat."
-
-
-################################### French language #####################################
-#[Languages.fr]
-#languageName = "Fr"
-#languageCode = "fr-fr"
-#contentDir = "content/french"
-#weight = 2
-#home = "Accueil"
-## footer content
-#footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat."
