@@ -2,7 +2,7 @@
 baseURL = "https://www.vihait.com/"
 
 title = "Viha IT Solutions: Delivering Innovative Technology Solutions"
-theme = "main_theme"
+#theme = "main_theme"
 # post pagination
 paginate = "6"
 # post excerpt
