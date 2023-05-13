@@ -14,4 +14,5 @@ AddOutputFilterByType DEFLATE image/gif
 AddOutputFilterByType DEFLATE image/jpeg
 AddOutputFilterByType DEFLATE image/svg+xml
 Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Origin "vihait.com"
 </IfModule>
