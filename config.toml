@@ -8,7 +8,7 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "redlab" # get your shortname form here : https://disqus.com
+disqusShortname = "vihait" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # desable language from here
 
@@ -26,6 +26,8 @@ link = "plugins/slick/slick.css"
 link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/custom/style.css"
 
 # JS Plugins
 [[params.plugins.js]]
