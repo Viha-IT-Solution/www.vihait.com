@@ -179,7 +179,8 @@
     .gallery-content {
       visibility: visible;
       opacity: 1;
-      &>div{
+
+      & > div {
         transform: translateY(0px);
       }
     }
@@ -195,7 +196,8 @@
     opacity: 0;
     visibility: hidden;
     transition: .2s ease;
-    &>div{
+
+    & > div {
       transition: inherit;
       transform: translateY(20px);
     }

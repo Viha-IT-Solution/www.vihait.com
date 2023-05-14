@@ -20,7 +20,7 @@ banner:
 ##################### call to action ########################################
 cta:
   enable : true
-  title : "Looking for First-Class PHP Developer?"
+  title : "Looking for First-Class Mobile Developer?"
   button:
     enable : true
     label : "get a qoute"
