@@ -1,5 +1,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/vihaikbl/public_html/aaaaa
-    - hugo --minify -b "../aaaaa/"
+    - hugo --minify -d "../aaaaa/"
     - /bin/cp -R $OUTPUT_DIR/* $DEPLOYPATH
