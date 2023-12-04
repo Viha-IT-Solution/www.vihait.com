@@ -1,117 +1,113 @@
 ################################# Banner ##################################
 banner:
   bg_image: "images/backgrounds/banner.jpg"
-  title : "The development of technological solutions is our forte"
-  content : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum voluptatem enim
-            quibusdam a necessitatibus! Adipisci culpa inventore harum optio vitae totam aliquam, iusto minus quo hic ipsam."
-            
+  title: "Empowering & Development of technological solutions is our expertise"
+  content: "At the forefront of technology, we are dedicated to crafting innovative solutions that not only address current needs but also shape the future digital landscape. Fueled by passion and commitment to excellence, we specialize in the adept development of cutting-edge technological solutions."
+
   # button primary
   button_solid:
-    enable : true
-    label : "Explore Us"
-    link : "about"
+    enable: true
+    label: "About Us"
+    link: "about"
 
   # button outline
   button_outline:
-    enable : false
-    label : "Contact Us"
-    link : "contact"
+    enable: false
+    label: "Contact Us"
+    link: "contact"
 
 ##################### call to action ########################################
 cta:
-  enable : true
-  title : "Looking for First-Class Mobile Developer?"
+  enable: true
+  title: "Looking for First-Class Mobile Developer?"
   button:
-    enable : true
-    label : "get a qoute"
-    link : "contact"
+    enable: true
+    label: "get a qoute"
+    link: "contact"
 
 ################################## about ####################################
 about:
   enable: true
-  image : "images/about/about.jpg"
+  image: "images/about/about.jpg"
   # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
-  content : "
+  content: "
 
-  ## We are here to always <br> help you
+  ## We are here to always help you
 
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi obcaecati earum quia accusamus quaerat suscipit sit saepe amet explicabo.
-
-
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatibus quod placeat eius dolorum cumque
-  neque fugiat. Praesentium consequatur beatae eum quibusdam deleniti vero repellat numquam molestiae labore
-  repellendus enim tempore laborum alias aut ex
+    Our commitment to your success extends beyond delivering cutting-edge technological solutions. We are devoted to providing continuous support, ensuring a seamless and prosperous journey with us. Clients aren't just partners; they are esteemed members of our growing family.
+    
+        
+    At the core of our mission is your success. Acknowledging the complexities of technology, we stand ready to navigate challenges alongside you. Choosing Viha IT Solution means more than a one-time service – it signifies gaining a steadfast ally in your technological pursuits. 
   "
   button:
-    enable : true
-    label : "know more"
-    link : "about"
+    enable: true
+    label: "know more"
+    link: "about"
 
 ################################# testimonial ################################
 testimonial:
-  enable : true
-  title : "What People Say?"
+  enable: false
+  title: "What People Say?"
   testimonial_item:
     # testimonial item loop
-    - name : "John Doe"
-      image : "images/testimonial/client-1.jpg" # image size 100px * 100px
-      designation : "Web Developer"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel
+    - name: "John Doe"
+      image: "images/testimonial/client-1.jpg" # image size 100px * 100px
+      designation: "Web Developer"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel
               illo dolorem, atque maxime voluptates optio fugit iure cum ipsa quo quaerat"
-              
+
     # testimonial item loop
-    - name : "Jinat Rin"
-      image : "images/testimonial/client-2.jpg" # image size 100px * 100px
-      designation : "UI/UX Designer"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel
+    - name: "Jinat Rin"
+      image: "images/testimonial/client-2.jpg" # image size 100px * 100px
+      designation: "UI/UX Designer"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel
               illo dolorem, atque maxime voluptates optio fugit iure cum ipsa quo quaerat! Veritatis, modi. Laudantium
               provident deleniti earum voluptas delectus, labore dolor dolorem amet expedita."
-              
+
     # testimonial item loop
-    - name : "Mark Din"
-      image : "images/testimonial/client-3.jpg" # image size 100px * 100px
-      designation : "Web Developer"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel
+    - name: "Mark Din"
+      image: "images/testimonial/client-3.jpg" # image size 100px * 100px
+      designation: "Web Developer"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate modi sunt placeat in vel
               illo dolorem, atque maxime voluptates optio fugit iure cum ipsa quo quaerat! Veritatis, modi."
 
-
 ################################# Service #####################################
+
 service:
-  enable : true
-  title : "Our Services"
+  enable: true
+  title: "Our Services"
   service_item:
     # Service item loop
-    - title : "Creative Illustration"
-      icon : "ti-vector" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
-      
-    # Service item loop
-    - title : "Graphics Design"
-      icon : "ti-palette" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
-      
-    # Service item loop
-    - title : "UI/UX Design"
-      icon : "ti-layout" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
-      
-    # Service item loop
-    - title : "Web Development"
-      icon : "ti-world" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
-      
-    # Service item loop
-    - title : "Database Management"
-      icon : "ti-server" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
-      
-    # Service item loop
-    - title : "Cloud Service"
-      icon : "ti-palette" # here we use themefy icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi aut cumque pariatur repellendus repellat debitis molestias"
+    - title: "Android Development"
+      icon: "images/services/android.png"
+      content: "We are a leading Android app development company, offering cutting-edge solutions to help you stay ahead of the curve."
 
+    # Service item loop
+    - title: "iOS Development"
+      icon: "images/services/ios.png"
+      content: "We are a leading iOS app development company, offering cutting-edge solutions to help you stay ahead of the curve."
+
+    # Service item loop
+    - title: "Game Development"
+      icon: "images/services/unity.png"
+      content: "We are a leading game development company, offering cutting-edge solutions to help you stay ahead of the curve."
+
+    # Service item loop
+    - title: "Web/Full Stack Development"
+      icon: "images/services/web.png"
+      content: "We are a leading web development company, offering cutting-edge solutions to help you stay ahead of the curve."
+
+    # Service item loop
+    - title: "UI/UX Design"
+      icon: "images/services/uiux.png"
+      content: "We are a leading UI/UX design company, offering cutting-edge solutions to help you stay ahead of the curve."
+
+    # Service item loop
+    - title: "ASO & Digital Marketing"
+      icon: "images/services/aso.png"
+      content: "We are a leading ASO & Digital Marketing company, offering cutting-edge solutions to help you stay ahead of the curve."
 
 ######################### Clients logo slider ################################
 clients_logo:
-  enable : true
+  enable: false
   # logo comes from "config.toml" file

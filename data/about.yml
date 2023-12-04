@@ -1,6 +1,6 @@
 ################################## Gallery ######################################
 gallery:
-  enable : true
+  enable : false
   title : "Our Featured Gallery"
   gallery_item:
     # gallery item loop
@@ -41,7 +41,7 @@ gallery:
 
 #################################### team #############################################
 team:
-  enable : true
+  enable : false
   title : "Meet Our Team"
   team_member:
     # team member loop
@@ -155,5 +155,5 @@ team:
 
 ######################### Clients logo slider ################################
 clients_logo:
-  enable : true
+  enable : false
   # logo comes from "config.toml" file

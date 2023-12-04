@@ -8,7 +8,7 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "vihait" # get your shortname form here : https://disqus.com
+disqusShortname = "vihait"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -62,19 +62,24 @@ URL = "portfolio"
 weight = 2
 
 [[menu.main]]
-weight = 3
-name = "Pages"
-hasChildren = true
-
-[[menu.main]]
-parent = "Pages"
 name = "Career"
 URL = "career"
+weight = 3
 
-[[menu.main]]
-parent = "Pages"
-name = "Blog"
-URL = "blog"
+#[[menu.main]]
+#weight = 3
+#name = "Pages"
+#hasChildren = true
+#
+#[[menu.main]]
+#parent = "Pages"
+#name = "Career"
+#URL = "career"
+#
+#[[menu.main]]
+#parent = "Pages"
+#name = "Blog"
+#URL = "blog"
 
 [[menu.main]]
 name = "Contact"
@@ -98,7 +103,7 @@ URL = "service"
 weight = 3
 
 [[menu.footer]]
-name = "Privacy Policy"
+name = "Blogs"
 URL = "blog"
 weight = 4
 
@@ -107,7 +112,7 @@ weight = 4
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "Empower your business with cutting-edge mobile solutions. As a leading mobile development company, we specialize in creating innovative and customized mobile apps for iOS and Android. Elevate your user experience, enhance functionality, and stay ahead in the digital landscape with our expert team of mobile developers. From concept to deployment, we bring your ideas to life, delivering seamless and responsive mobile experiences that engage and delight users. Explore our mobile development services and unlock the full potential of your business in the palm of your customers' hands."
 author = "Viha IT"
 # contact info
 address = "4078, Silver Business Point, Near VIP Circle, Surat, Gujarat, India ~ 394105"
@@ -150,11 +155,11 @@ logo = "images/clients-logo/clients-logo-2.png"
 [[params.clients_logo]]
 logo = "images/clients-logo/clients-logo-3.png"
 
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-4.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-5.png"
+#[[params.clients_logo]]
+#logo = "images/clients-logo/clients-logo-4.png"
+#
+#[[params.clients_logo]]
+#logo = "images/clients-logo/clients-logo-5.png"
 
 [[params.clients_logo]]
 logo = "images/clients-logo/clients-logo-1.png"
@@ -165,34 +170,36 @@ logo = "images/clients-logo/clients-logo-2.png"
 [[params.clients_logo]]
 logo = "images/clients-logo/clients-logo-3.png"
 
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-4.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-5.png"
+#[[params.clients_logo]]
+#logo = "images/clients-logo/clients-logo-4.png"
+#
+#[[params.clients_logo]]
+#logo = "images/clients-logo/clients-logo-5.png"
 
 ############################# social icon #################################
 [[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/vihaitsolution"
 
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.linkedin.com/company/vihait/"
 
-[[params.social]]
-icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
 [[params.social]]
 icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.instagram.com/vihaitsolution"
+
+[[params.social]]
 
 
 [params.footer]
 about_us = "About Viha IT Solition"
-footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat."
+footer_content = "Viha IT Solution leads in mobile and web development, crafting digital experiences that exceed expectations. Committed to excellence and cutting-edge tech, we redefine possibilities. Join us on a transformative journey into the future of technology."
