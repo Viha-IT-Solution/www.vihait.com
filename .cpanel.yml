@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - hugo --minify -d ../
+    - hugo -d ../
