@@ -1,6 +1,13 @@
+#---
+#deployment:
+#  tasks:
+##    - export DEPLOYPATH=/home/vihaikbl/public_html/www.vihait.com/aaaaa
+#    - hugo --minify -d "aaaaa"
+##    - /bin/cp -R $OUTPUT_DIR/* $DEPLOYPATH
+
+
+
 ---
 deployment:
   tasks:
-#    - export DEPLOYPATH=/home/vihaikbl/public_html/www.vihait.com/aaaaa
-    - hugo --minify -d "aaaaa"
-#    - /bin/cp -R $OUTPUT_DIR/* $DEPLOYPATH
+    - hugo --minify -d subdomain
