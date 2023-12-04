@@ -1,4 +1,4 @@
 #---
-#deployment:
-#  script:
-    - hugo --d ../
+deployment:
+  script:
+    hugo -d ../
