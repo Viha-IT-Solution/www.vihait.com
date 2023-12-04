@@ -1,5 +1,5 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/vihaikbl/public_html
-    - hugo --minify -b "https://vihait.com/"
-    - /bin/cp -R $OUTPUT_DIR/* $DEPLOYPATH
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp -R images $DEPLOYPATH
