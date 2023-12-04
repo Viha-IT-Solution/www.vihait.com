@@ -1,5 +1,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/vihaikbl/public_html/aaaaa
-    - hugo -d "../aaaaa/"
+    - hugo -d "aaaaa"
     - /bin/cp -R $OUTPUT_DIR/* $DEPLOYPATH
